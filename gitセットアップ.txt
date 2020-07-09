@@ -1,0 +1,10 @@
+初期設定（git bashからgithubのアカウント登録）
+
+git config --global user.name "m_mary"
+git config --global user.email swing54111th@yahoo.co.jp
+
+gitのフォルダを作成してカレントディレクトリとし,
+init git
+を実行.
+.gitが生成される．
+
