@@ -15,6 +15,11 @@ git add filename
 git commit
 git commit -v とすれば差分が表示される
 
+git rm filename
+で削除したいファイルをステージングエリアへ追加
+git commit -v
+でコミット
+
 
 git remote add origin https://github.com/m-mary/test.git
 
