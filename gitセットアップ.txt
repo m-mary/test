@@ -25,6 +25,10 @@ GitHubへのアップロード
 git remote add origin https://github.com/m-mary/test.git
 git push -u origin master
 
+ブランチが違う場合は
+git push -u origin branch
+
+
 
 変更を確認したい場合
 git log
@@ -41,3 +45,20 @@ git diff
 
 git diff HEAD
 ステージングエリアとコミットとの差分
+
+管理したくないファイル
+.gitignoreファイルに指定する
+
+#はコメント
+ディレクトリ以下除外の場合
+dir/
+dirはディレクトリ名
+
+後で管理から外す場合
+git rm filename
+git rm -r dir_name
+git rm --cashed filenameでファイル自体は削除しない
+
+削除したものを戻すとき
+git reset HEAD filename
+git checkout filename
