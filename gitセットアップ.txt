@@ -22,7 +22,6 @@ git commit -v
 
 
 git remote add origin https://github.com/m-mary/test.git
-
 git push -u origin master
 
 
