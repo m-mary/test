@@ -13,6 +13,8 @@ git add filename
 
 リポジトリに変更を記録する（メッセージつきで記録する.何の変更をしたのか記録しておく）
 git commit
+git commit -v とすれば差分が表示される
+
 
 git remote add origin https://github.com/m-mary/test.git
 
